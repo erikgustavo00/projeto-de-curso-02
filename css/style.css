@@ -57,7 +57,7 @@ header{
 }
 .banner{
 	width: 100%;
-	height: 80vh;
+	height: 85vh;
 	background-image: url('../imagens/bg-form.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -69,7 +69,7 @@ header{
 .form{
 	width: 500px;
 	height: 100%;
-	border: 5px solid rgba(0, 0, 0, 0.642);
+	border: 2px solid rgba(0, 0, 0, 0.642);
 	display: flex;
 	flex-direction: column;
 	
@@ -91,12 +91,31 @@ header{
 	width: 100%;
 	height: 45px;
 	border: none;
+	line-height: 40px;
+	padding-left:15px ;
 }
-.btn{
+input[type='submit']{
+	cursor: pointer;
+	background-color:rgb(0, 0, 82);
+	font-size: 14px;
+	color: #D6D6D6;
 	margin-top: 50px;
 }
-label{
-	margin-top: 20px;
+
+.input-wraper{
+	margin:  20px 0;
+}
+.chamada-wraper{
+	text-align: center;
+	padding: 30px ;
+	width: 100%;
+	background-color: rgba(224, 224, 224, 0.8);
+	margin: 2px 0;
+}
+.chamada-wraper h2{
+	font-weight: normal;
+	font-size: 26px;
+	padding-bottom: 20px;
 }
 @media screen and (max-width: 510px){
 
