@@ -149,6 +149,17 @@ input[type='submit']{
 	background-color: rgb(83, 106, 145);
 	
 }
+.mosaico{
+	height: 400px;
+	width: 100%;
+}
+.logo-footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #D6D6D6;
+	padding:10px 2%;
+}
 @media screen and (max-width: 510px){
 
 	header{
@@ -162,4 +173,21 @@ input[type='submit']{
 	}
 
 
+}
+@media screen and (max-width:768px){
+	.content-wraper, .content-wraper-2{
+		display: block;
+		
+	}
+	.bg-img{
+		height: 300px;
+		width: 100%;
+		
+	}
+	.description{
+		
+		width: 100%;
+		
+		
+	}
 }
