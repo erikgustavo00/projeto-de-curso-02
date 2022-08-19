@@ -26,7 +26,7 @@ html,body{
 	clear: both;
 }
 /******/
-
+/* header da pagina */
 header{
 	background-color: #D6D6D6;
 	padding:10px 2%;
@@ -44,7 +44,7 @@ header{
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center;
-	/*background-color: purple;*/
+	
 }
 
 .logo-2{
@@ -54,8 +54,9 @@ header{
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center;
-	/*background-color: green;*/
+	
 }
+/* banner e formulario */
 .banner{
 	width: 100%;
 	position: relative;
@@ -67,12 +68,14 @@ header{
 	flex-direction: row-reverse;
 	padding:30px;
 }
+
 .arrow{
 	position:absolute;
 	bottom: -30px;
 	left: 50%;
 	margin-left: -20px;
-}
+} /* seta (ainda no banner) */
+/* formulario abaixo */
 .form{
 	width: 500px;
 	height: 100%;
@@ -113,6 +116,7 @@ input[type='submit']{
 .input-wraper{
 	margin:  20px 0;
 }
+/* chamada */
 .chamada-wraper{
 	text-align: center;
 	padding: 30px ;
@@ -125,6 +129,7 @@ input[type='submit']{
 	font-size: 26px;
 	padding-bottom: 20px;
 }
+/* conteúdo e mosaico */
 .content-wraper{
 	display: flex;
 	width: 100%;
@@ -153,6 +158,7 @@ input[type='submit']{
 	height: 400px;
 	width: 100%;
 }
+/* rodapé */
 .logo-footer{
 	display: flex;
 	flex-wrap: wrap;
@@ -160,6 +166,7 @@ input[type='submit']{
 	background-color: #D6D6D6;
 	padding:10px 2%;
 }
+/* media screen */
 @media screen and (max-width: 510px){
 
 	header{
